@@ -1,0 +1,2 @@
+# JKangESExtensions.MassTransit.EfCoreMSSql.MsoftDI
+ Extends the JKang.EventSourcing libraries with asynchronous messaging provided by MassTransit library. This allows integration events to be published when (and only when) a domain event is successfully persisted to the event stream. This library is coupled to Entity Framework Core and Microsoft SQL Server using the dependency injection framework in Microsoft.Extensions.DependencyInjection but you can use the base classes and interfaces in JKangESExtensions.MassTransit to support others.
